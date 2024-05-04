@@ -7,8 +7,8 @@ const Geofencing = () => {
   const [password, setPassword] = useState('');
   const [userLocation, setUserLocation] = useState(null);
   // const [locationError, setLocationError] = useState(null);
-  const destinationDistance = {latitude: 40.7128, longitude: -74.006};
-  // const destinationDistance = {latitude: 23.207207207207, longitude: 75.9665979755644};
+  // const destinationDistance = {latitude: 40.7128, longitude: -74.006};
+  const destinationDistance = {latitude: 23.207207207207, longitude: 75.9665979755644};
 
   useEffect(() => {
     Geolocation.getCurrentPosition(
